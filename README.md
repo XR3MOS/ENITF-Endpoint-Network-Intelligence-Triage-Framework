@@ -16,3 +16,17 @@ This tool is built for:
 - 🌐 Threat Intelligence Integration (VirusTotal)
 - 🚨 Detection Engine (Anomaly-based flagging)
 - 📊 HTML Reporting (Executive-ready output)
+
+---
+
+## Architecture
+Port → Connection → PID → Process → File → Hash → Threat Intel → Detection → Report
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/enitf.git
+cd enitf
+pip install -r requirements.txt
